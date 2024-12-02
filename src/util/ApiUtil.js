@@ -131,6 +131,7 @@ export const resetPasswordApi = async (token, password) => {
   }
 };
 
+// SessionAPI Component
 export const sessionApi = async (token) => {
   let response = frameResponse();
   try {
