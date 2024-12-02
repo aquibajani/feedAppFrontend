@@ -8,6 +8,7 @@ import Badge from "../../components/Badge";
 import LogoImage from "../../assets/images/logo.png";
 
 import { registerApi } from "../../util/ApiUtil";
+import LoadingIndicator from "../../components/LoadingIndicator";
 
 const Register = () => {
   const formikRef = useRef();
@@ -64,7 +65,6 @@ const Register = () => {
           <div className="flex items-center h-full px-20 bg-gray-900 bg-opacity-40">
             <div>
               <h2 className="text-4xl font-bold text-white">Welcome,</h2>
-
               <p className="max-w-xl mt-3 text-gray-300">
                 You are just one step away to something amazing!
               </p>

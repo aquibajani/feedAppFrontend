@@ -27,6 +27,7 @@ const AppContextProvider = ({ children }) => {
     removeCookie("appToken", { path: "/" });
     setUserData(undefined);
   };
+
   return (
     <AppContext.Provider
       value={{
